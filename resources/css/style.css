@@ -1,0 +1,113 @@
+@@font-face {
+  font-family: "Futura";
+  src: url(../fonts/Future.ttc) format('truetype');
+}
+html {
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Futura';
+}
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+.navigation {
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  background-color: dodgerblue;
+  opacity: 0.38;
+}
+.navigation h3 {
+  padding: 2rem;
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navigation p {
+  padding: 1rem;
+  align-self: center;
+  color: white;
+  font-size: .90rem;
+}
+.banner {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  height: 30rem;
+}
+.banner h2 {
+  font-size: 2.5rem;
+  opacity: 0.9;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  color: lightskyblue;
+  font-family: 'Futura';
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: dodgerblue;
+  opacity: 0.8;
+}
+.content p {
+  color: white;
+}
+.section-one {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.section-one h2 {
+  font-size: 2rem;
+  color: white;
+}
+.section-one h3 {
+  text-align: left;
+  color: white;
+}
+.section-two {
+  width: 80%;
+}
+.section-two h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.section-two .textbox {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.textbox h4 {
+  font-weight: normal;
+  font: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+.button p {
+  padding: 1rem 1rem 1rem 1rem;
+  border: thin solid lightskyblue;
+  background-color: dodgerblue;
+  opacity: 0.8;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
